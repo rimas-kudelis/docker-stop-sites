@@ -3,6 +3,9 @@
 # turn on bash's job control
 set -m
 
+# Start Tor
+tor -f ./torrc &
+
 # Start the primary process and put it in the background
 # rendertron - headless Chrome rendering solution
 npm run start &

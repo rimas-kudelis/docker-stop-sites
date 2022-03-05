@@ -1,1 +1,4 @@
-{ "timeout": "600000" }
+{
+  "timeout": "600000",
+  "puppeteerArgs": [ "--proxy-server=socks5://127.0.0.1:9050", "--no-sandbox" ]
+}
